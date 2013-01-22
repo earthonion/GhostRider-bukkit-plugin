@@ -1,0 +1,20 @@
+name: GhostRider
+main: com.civilizedgravy.ghostrider.GhostRider
+version: 0.1
+commands:
+   spawnghostrider:
+      description: spawns a ghost rider
+      usage: /<command>
+      permission: GhostRider.spawn
+      permission-message: You must be OP to use this command
+   gr:
+      description: spawns a ghost rider
+      usage: /<command>
+      permission: GhostRider.spawn
+      permission-message: You must be OP to use this command
+   
+      
+permissions:
+    GhostRider.*:
+        description: Gives access to all GhostRider commands
+        default: op
